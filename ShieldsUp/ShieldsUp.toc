@@ -1,0 +1,49 @@
+## Interface: 40100
+## Version: 4.1.0.119
+
+## Title: ShieldsUp
+## Notes: Text-based shaman shield monitor.
+## Notes-esES: Seguir sus Escudos elementales.
+## Notes-esMX: Seguir sus Escudos elementales.
+## Author: Phanx, Akkorian
+## X-Credits: Inspired by Infineon's beSch.
+## X-Email: akkorian@hotmail.com
+## X-Copyright: Copyright © 2008–2011 Phanx.
+## X-License: Some rights reserved. See LICENSE.txt for details.
+## X-CompatibleLocales: enUS, deDE, esES, esMX, frFR, ruRU, koKR, zhCN, zhTW
+## X-Localizations: enUS, deDE, esES, esMX, frFR, ruRU, zhCN, zhTW
+## X-Website: http://www.wowinterface.com/downloads/info9165-ShieldsUp.html
+## X-Curse-Project-ID: shieldsup
+## X-WoWI-ID: 9165
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Class: SHAMAN
+
+## OptionalDeps: LibAboutPanel, LibSharedMedia-3.0, LibSink-2.0, PhanxConfigWidgets
+## SavedVariables: ShieldsUpDB
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibAboutPanel\LibAboutPanel.lua
+Libs\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
+Libs\LibSink-2.0\LibSink-2.0.lua
+Libs\PhanxConfig-Checkbox\PhanxConfig-Checkbox.lua
+Libs\PhanxConfig-ColorPicker\PhanxConfig-ColorPicker.lua
+Libs\PhanxConfig-Dropdown\PhanxConfig-Dropdown.lua
+Libs\PhanxConfig-Header\PhanxConfig-Header.lua
+Libs\PhanxConfig-OptionsPanel\PhanxConfig-OptionsPanel.lua
+Libs\PhanxConfig-Panel\PhanxConfig-Panel.lua
+Libs\PhanxConfig-ScrollingDropdown\PhanxConfig-ScrollingDropdown.lua
+Libs\PhanxConfig-Slider\PhanxConfig-Slider.lua
+
+Locales\Locale-deDE.lua
+Locales\Locale-esES.lua
+# Locales\Locale-esMX.lua
+Locales\Locale-frFR.lua
+# Locales\Locale-koKR.lua
+Locales\Locale-ruRU.lua
+Locales\Locale-zhCN.lua
+Locales\Locale-zhTW.lua
+
+Core.lua
+Options.lua
